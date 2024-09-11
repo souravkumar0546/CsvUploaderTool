@@ -87,5 +87,5 @@ If more time were available, the following improvements and features would have 
 - **Enhanced Error Handling**: Improve error handling on both the frontend and backend to provide more detailed error messages and recovery options for users.
 - **CSV File Validation**: Implement additional validation for CSV files to ensure data integrity before processing. This includes checking for correct file format and content.
 - **Data Export Feature**: Add functionality for users to export the mapped data to various formats (e.g., CSV, Excel) for further analysis or reporting.
-- **Performance Optimization**: Optimize both frontend and backend performance to handle larger files and more concurrent users efficiently.
+- **Performance Optimization**: Optimize both frontend and backend performance to handle larger files.
 - **Adding Mapped Data to Database**: Ensure that the mapped data is correctly added to the database for persistent storage and further processing.
