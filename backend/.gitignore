@@ -1,0 +1,72 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+
+# Local virtual environment
+venv/
+env/
+ENV/
+
+# IDE/editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker-related files
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# Test and linting artifacts
+*.tox/
+*.nox/
+*.coverage
+*.coverage.*
+*.hypothesis/
+*.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.log
+*.prof
+
+# Yarn or npm files (if applicable)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Backup files
+*.zip
+*.tar.gz
+*.tar
