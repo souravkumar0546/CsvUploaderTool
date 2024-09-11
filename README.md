@@ -21,10 +21,15 @@ The CSV Uploader Tool is a web application that allows users to upload CSV files
 
 ### Setup
 
+#### Clone the Repository
+```bash
+git clone https://github.com/souravkumar0546/CsvUploaderTool.git
+```
+
 #### Backend
-1. **Clone the Repository**:
+
+1. **Navigate to the Backend Directory**
     ```bash
-    git clone https://github.com/souravkumar0546/CsvUploaderTool.git
     cd backend
     ```
 
