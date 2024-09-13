@@ -12,19 +12,48 @@ The CSV Uploader Tool is a web application that allows users to upload CSV files
 ## Technologies Used
 - **Frontend**: React
 - **Backend**: Django
+- **Docker**: Used to containerize both the frontend and backend, making it easier to run the application consistently across different environments
 
 ## Getting Started
 
 ### Prerequisites
+- Docker and Docker Compose (for setting up the application using containers)
 - Node.js and npm (for frontend development)
 - Python 3.x (for backend development)
 
+
 ### Setup
 
+#### Clone the Repository
+```bash
+git clone https://github.com/souravkumar0546/CsvUploaderTool.git
+```
+#### Using Docker (Recommended)
+1. **Navigate to the Main Directory**
+   ```bash
+    cd backend
+    ```
+2. **Create an .env file in the backend directory by copying the .env.example file**
+   ```bash
+   cp backend/.env.example backend/.env
+   ```
+3. **Configure the Environment Variables: Edit the .env file in the backend directory to include your Gemini API key**
+   ```bash
+   API_KEY=your-api-key-here
+   ```
+4. **Run the Application using Docker Compose:**
+   ```bash
+   docker-compose up --build
+   ```
+**Access the Application:**
+- Frontend: http://localhost:3000
+- Backend: http://localhost:8000
+   
+#### Without Docker (Manual Setup)
 #### Backend
-1. **Clone the Repository**:
+
+1. **Navigate to the Backend Directory**
     ```bash
-    git clone https://github.com/souravkumar0546/CsvUploaderTool.git
     cd backend
     ```
 
@@ -70,16 +99,8 @@ The CSV Uploader Tool is a web application that allows users to upload CSV files
 
 
 **Access the Application**:
-    - Frontend: http://localhost:3000
-    - Backend: http://localhost:8000
-
-## Directory Structure
-- `backend/`: Contains Django project files.
-  - `manage.py`: Django management script.
-  - `backend/`: Django project folder.
-  - `uploader/`: Django app folder with CSV upload functionality.
-  - `.env.example`: Example environment variables file.
-- `frontend/`: Contains React project files.
+- Frontend: http://localhost:3000
+- Backend: http://localhost:8000
 
 ## Future Improvements and Features
 If more time were available, the following improvements and features would have been considered:
