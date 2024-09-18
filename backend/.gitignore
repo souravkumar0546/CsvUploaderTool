@@ -13,7 +13,6 @@ db.sqlite3
 media/
 staticfiles/
 .env
-.env.*
 
 # Local virtual environment
 venv/
